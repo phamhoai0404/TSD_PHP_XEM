@@ -1,0 +1,15 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2020-10-24 00:12:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2020-10-24 00:12:36 192.168.36.10 GET /play_file/MPC032 - 3000 - 192.168.36.52 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 - 200 0 0 2781
+2020-10-24 00:12:37 192.168.36.10 GET /api/download-files/9566 - 3000 - 192.168.36.52 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC032 200 0 0 312
+2020-10-24 00:12:37 192.168.36.10 GET /api/download-files/9565 - 3000 - 192.168.36.52 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC032 200 0 0 343
+2020-10-24 00:12:37 192.168.36.10 GET /api/download-files/9564 - 3000 - 192.168.36.52 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC032 200 0 0 437
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2020-10-24 00:35:39
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2020-10-24 00:35:39 192.168.36.10 GET /play_file/MPC029 - 3000 - 192.168.36.49 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 - 200 0 0 390
+2020-10-24 00:35:41 192.168.36.10 GET /api/download-files/9559 - 3000 - 192.168.36.49 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC029 200 0 0 187
+2020-10-24 00:35:41 192.168.36.10 GET /api/download-files/9562 - 3000 - 192.168.36.49 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC029 200 0 0 296

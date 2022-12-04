@@ -1,0 +1,8 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2022-06-11 00:53:46
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2022-06-11 00:53:46 192.168.36.10 GET /play_file/MPC001 - 3000 - 192.168.36.21 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 - 200 0 0 2281
+2022-06-11 00:53:49 192.168.36.10 GET /api/download-files/20852 - 3000 - 192.168.36.21 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC001 200 0 0 546
+2022-06-11 00:53:56 192.168.36.10 GET /play_file/MPC002 - 3000 - 192.168.36.22 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 - 200 0 0 171
+2022-06-11 00:53:59 192.168.36.10 GET /api/download-files/16895 - 3000 - 192.168.36.22 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC002 200 0 0 390

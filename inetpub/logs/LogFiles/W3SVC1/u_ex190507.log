@@ -1,0 +1,67 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2019-05-07 06:21:42
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-05-07 06:21:42 ::1 GET /api/setting/destination_path - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 401 0 0 2229
+2019-05-07 06:21:42 ::1 GET /api/sync_file/des - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 401 0 0 2229
+2019-05-07 06:21:42 ::1 GET /api/sync_file/source - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 401 0 0 2230
+2019-05-07 06:21:42 ::1 GET /api/setting/source_path - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 401 0 0 2231
+2019-05-07 06:21:42 ::1 GET /sync_file - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 302 0 0 229
+2019-05-07 06:21:42 ::1 GET /login - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 236
+2019-05-07 06:21:50 ::1 POST /login - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/login 302 0 0 345
+2019-05-07 06:21:50 ::1 GET /play_file - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/login 200 0 0 269
+2019-05-07 06:21:50 ::1 GET /api/current-user - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 253
+2019-05-07 06:21:50 ::1 GET /api/setting/default_time - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 253
+2019-05-07 06:21:50 ::1 GET /api/playfile/des - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 262
+2019-05-07 06:21:51 ::1 GET /api/current-user - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 156
+2019-05-07 06:21:51 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 167
+2019-05-07 06:21:54 ::1 PUT /api/user/language - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 201
+2019-05-07 06:21:59 ::1 GET /api/setting/source_path - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 166
+2019-05-07 06:21:59 ::1 GET /api/sync_file/source - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 165
+2019-05-07 06:21:59 ::1 GET /api/setting/destination_path - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 166
+2019-05-07 06:21:59 ::1 GET /api/sync_file/des - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 224
+2019-05-07 06:22:02 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/micro_pc 200 0 0 165
+2019-05-07 06:22:02 ::1 GET /api/micro_pc/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/micro_pc 200 0 0 187
+2019-05-07 06:22:02 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/micro_pc 200 0 0 164
+2019-05-07 06:22:05 ::1 GET /api/controlpc/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/pc 200 0 0 167
+2019-05-07 06:22:09 ::1 PUT /api/user/language - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/pc 200 0 0 178
+2019-05-07 06:22:46 ::1 POST /api/controlpc/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/pc 200 0 0 242
+2019-05-07 06:22:46 ::1 GET /api/controlpc/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/pc 200 0 0 208
+2019-05-07 06:23:00 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 163
+2019-05-07 06:23:37 ::1 POST /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 199
+2019-05-07 06:23:37 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 164
+2019-05-07 06:23:55 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 178
+2019-05-07 06:24:00 ::1 DELETE /api/department/10 - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 274
+2019-05-07 06:24:00 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 184
+2019-05-07 06:24:04 ::1 GET /api/current-user - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 162
+2019-05-07 06:24:04 ::1 GET /api/role - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 219
+2019-05-07 06:24:04 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 227
+2019-05-07 06:24:04 ::1 GET /api/user/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 243
+2019-05-07 06:24:19 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/department 200 0 0 164
+2019-05-07 06:24:22 ::1 GET /api/current-user - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 161
+2019-05-07 06:24:22 ::1 GET /api/role - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 160
+2019-05-07 06:24:22 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 171
+2019-05-07 06:24:22 ::1 GET /api/user/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/user 200 0 0 187
+2019-05-07 06:24:53 ::1 GET /api/setting - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/setting 200 0 0 162
+2019-05-07 06:25:06 ::1 GET /api/sync_file/source - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 180
+2019-05-07 06:25:06 ::1 GET /api/sync_file/des - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 181
+2019-05-07 06:25:06 ::1 GET /api/setting/destination_path - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 185
+2019-05-07 06:25:06 ::1 GET /api/setting/source_path - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/sync_file 200 0 0 193
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2019-05-07 06:52:27
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-05-07 06:52:27 ::1 GET /api/setting/default_time - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 441
+2019-05-07 06:52:27 ::1 GET /api/current-user - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 467
+2019-05-07 06:52:27 ::1 GET /api/playfile/des - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 479
+2019-05-07 06:52:27 ::1 GET /api/department/ - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 222
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2019-05-07 07:47:45
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-05-07 07:47:45 ::1 GET /api/line/department/3 - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 448
+2019-05-07 07:47:48 ::1 GET /api/line/1 - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 218
+2019-05-07 07:47:48 ::1 GET /api/line/1/micros - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 291
+2019-05-07 07:47:58 ::1 GET /api/line/department/6 - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 219
+2019-05-07 07:48:01 ::1 GET /api/line/2 - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 170
+2019-05-07 07:48:01 ::1 GET /api/line/2/micros - 3000 - ::1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/74.0.3729.131+Safari/537.36 http://localhost:3000/play_file 200 0 0 181

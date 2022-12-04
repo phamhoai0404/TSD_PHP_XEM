@@ -1,0 +1,17 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2019-09-28 02:52:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-09-28 02:52:15 192.168.36.10 GET /login - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 - 302 0 0 2723
+2019-09-28 02:52:15 192.168.36.10 GET /home - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 - 200 0 0 392
+2019-09-28 02:52:16 192.168.36.10 GET /api/current-user - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 482
+2019-09-28 02:52:16 192.168.36.10 GET /api/sync_file/departments - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 550
+2019-09-28 02:52:16 192.168.36.10 GET /api/setting/source_path - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 567
+2019-09-28 02:52:16 192.168.36.10 GET /api/setting/destination_path - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 581
+2019-09-28 02:52:16 192.168.36.10 GET /api/sync_file/source - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 581
+2019-09-28 02:52:16 192.168.36.10 GET /api/sync_file/des - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 713
+2019-09-28 02:52:19 192.168.36.10 GET /api/sync_file/source - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 322
+2019-09-28 02:52:19 192.168.36.10 GET /api/sync_file/des - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 526
+2019-09-28 02:52:37 192.168.36.10 POST /api/sync_file/sync - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 1013
+2019-09-28 02:52:37 192.168.36.10 GET /api/sync_file/source - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 320
+2019-09-28 02:52:37 192.168.36.10 GET /api/sync_file/des - 3000 - 192.168.36.10 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.90+Safari/537.36 http://192.168.36.10:3000/sync_file 200 0 0 361

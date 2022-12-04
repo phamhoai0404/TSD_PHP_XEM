@@ -1,0 +1,28 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2019-08-04 00:27:04
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-08-04 00:27:04 192.168.36.10 GET /api/line/8 - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 468
+2019-08-04 00:27:04 192.168.36.10 GET /api/line/8/micros - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 531
+2019-08-04 00:27:06 192.168.36.10 PUT /api/line/checked/8 - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 296
+2019-08-04 00:27:06 192.168.36.10 DELETE /api/playlists/delete - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 296
+2019-08-04 00:27:06 192.168.36.10 PUT /api/line/isrunning/8 - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 328
+2019-08-04 00:27:06 192.168.36.10 PUT /api/micro_pc/isrunning - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 343
+2019-08-04 00:27:33 192.168.36.10 GET /api/line/8 - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 234
+2019-08-04 00:27:33 192.168.36.10 PUT /api/line/checked/8 - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 234
+2019-08-04 00:27:33 192.168.36.10 PUT /api/playlists/update/create - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 421
+2019-08-04 00:27:33 192.168.36.10 GET /api/download-files/102 - 3000 - 192.168.36.26 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC006 200 0 0 468
+2019-08-04 00:27:33 192.168.36.10 GET /api/download-files/101 - 3000 - 192.168.36.26 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC006 200 0 0 437
+2019-08-04 00:27:33 192.168.36.10 GET /api/download-files/99 - 3000 - 192.168.36.24 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC004 200 0 0 781
+2019-08-04 00:27:33 192.168.36.10 GET /api/download-files/97 - 3000 - 192.168.36.22 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC002 200 0 0 750
+2019-08-04 00:27:33 192.168.36.10 GET /api/download-files/100 - 3000 - 192.168.36.25 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC005 200 0 0 812
+2019-08-04 00:27:35 192.168.36.10 GET /api/download-files/98 - 3000 - 192.168.36.23 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC003 200 0 0 1109
+2019-08-04 00:27:35 192.168.36.10 GET /api/download-files/2195 - 3000 - 192.168.36.21 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC001 200 0 0 1094
+2019-08-04 00:27:35 192.168.36.10 PUT /api/line/isrunning/8 - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 281
+2019-08-04 00:27:35 192.168.36.10 PUT /api/micro_pc/isrunning - 3000 - 192.168.36.11 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/75.0.3770.142+Safari/537.36 http://192.168.36.10:3000/play_file 200 0 0 312
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2019-08-04 00:49:35
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-08-04 00:49:35 192.168.36.10 GET /play_file/MPC010 - 3000 - 192.168.36.30 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 - 200 0 0 406
+2019-08-04 00:49:38 192.168.36.10 GET /api/download-files/2620 - 3000 - 192.168.36.30 Mozilla/5.0+(X11;+Linux+armv7l)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Raspbian+Chromium/72.0.3626.121+Chrome/72.0.3626.121+Safari/537.36 http://paperless.tvn:3000/play_file/MPC010 200 0 0 640
